@@ -11,7 +11,7 @@ import aboutFeature from "../stores/aboutFeature.json";
       <v-row class="pt-10">
          <v-col cols="12" md="3" v-for="card in aboutFeature">
             <v-card :variant="flat" class="mx-auto hover-scale" color="blue-grey-darken-4" min-height="390">
-               <v-img height="150px" :src="`../icons/${card.img}`" cover></v-img>
+               <v-img height="150px" :src="`./icons/${card.img}`" cover></v-img>
 
                <v-card-item>
                   <v-card-title class="text-h5 font-weight-bold">{{ card.title }}</v-card-title>
