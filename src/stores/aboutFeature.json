@@ -1,0 +1,26 @@
+[
+   {
+      "title": "桌面化網頁操作",
+      "img": "website.png",
+      "subtitle": "全瀏覽器操作",
+      "description": "突破傳統網頁限制，在網頁上，提供如同Windows桌面般的操作體驗，能夠打開瀏覽器，就能在網頁上完成所有開發及分析。"
+   },
+   {
+      "title": "客製化工作流程",
+      "img": "customize.png",
+      "subtitle": "自定義自動化工作流",
+      "description": "透過套件進行工作定義或自動化流程。Workflow Playbook採用YAML格式，簡單、易用、高可讀性。"
+   },
+   {
+      "title": "隨選專業套件",
+      "img": "toolkit.png",
+      "subtitle": "不限定行業、領域",
+      "description": "導入AI分析套件、大數據分析套件、AI開發套件，根據不同使用環境導入所需套件，一鍵切換套件版本。(套件陸續開發中)"
+   },
+   {
+      "title": "高擴充性 & 可用性",
+      "img": "expansion.png",
+      "subtitle": "不限定後端運算系統或軟體平台",
+      "description": "根據不同運算系統導入不同connector即可使用，如Docker或Kubernetes等。"
+   }
+]

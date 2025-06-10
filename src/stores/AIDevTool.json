@@ -1,0 +1,17 @@
+[
+    {
+        "title": "NVDIA - CUDA",
+        "img": "cuda-svgrepo-com.svg",
+        "introduction": "CUDA（Compute Unified Device Architecture）為GPU廠商Nvidia所提出來的一個運算架構，其構想為將程式流程中只能以序列化（serial）執行的部分交由CPU來執行，計算量較龐大且能以平行化（parallel）計算的部分則交由GPU的平行硬體架構來做處理（kernel function），以加快運算的速度。一般程式大部分能平行化處理的部分，為利用迴圈對陣列資料做計算的部分，只要輸入及輸出的資料在迴圈的計算過程中無交叉引用的情況發生，便可以利用平行運算來加快計算速度。"
+    },
+    {
+        "title": "PyTorch",
+        "img": "PyTorch_logo_icon.svg",
+        "introduction": "這是一個針對機器學習專案設計，以Python 為基礎的開放原始碼程式庫。 專精於自動差異化、調整項運算，以及GPU 加速。 這使得以特別適用於尖端機器學習應用系統，例如深度學習。 由於Python 可自訂性，因此研究人員特別受歡迎的PyTorch。"
+    },
+    {
+        "title": "TensorFlow",
+        "img": "tensorflow.svg",
+        "introduction": "TensorFlow是一個開源軟體庫，用於各種感知和語言理解任務的機器學習。 目前被50個團隊用於研究和生產許多Google商業產品，如語音辨識、Gmail、Google 相簿和搜尋，其中許多產品曾使用過其前任軟體DistBelief。"
+    }
+]
