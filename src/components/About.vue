@@ -36,4 +36,12 @@ import aboutFeature from "../stores/aboutFeature.json";
    transform: scale(1.05);
    box-shadow: 0 10px 20px rgb(26, 45, 65);
 }
+@media screen and (max-width: 960px) {
+.v-row {
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+}
+   
+}
+
 </style>

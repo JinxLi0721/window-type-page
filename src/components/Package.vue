@@ -11,7 +11,8 @@ const slides = ["First", "Second", "Third", "Fourth", "Fifth"];
       <div class="text-subtitle-1 text-center py-3 font-weight-medium">
          AI開發套件-提供眾多AI開發框架及IDE，快速構建所需的環境。
       </div>
-      <v-carousel class="py-5" delimiter-icon="mdi-square" cycle hide-delimiter-background>
+      <v-carousel class="py-5" delimiter-icon="mdi-square"  height="650"
+    show-arrows="hover" cycle hide-delimiter-background>
          <v-carousel-item v-for="(devtool, i) in packageData" :key="i">
             <v-container class="bg-surface-variant">
                <v-hover v-slot="{ isHovering, props }">

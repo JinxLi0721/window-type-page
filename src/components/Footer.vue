@@ -8,7 +8,7 @@
       <div class="text-subtitle-1 text-center py-3 font-weight-medium mb-6">歡迎與我們聯繫</div>
       <v-container class="mt-2">
          <v-row class="d-flex flex-wrap">
-            <v-col md="6" class="pa-2 ma-2">
+            <v-col md="6" class="pa-2">
                <div class="left-container mb-6">
                   <div class="text-h6">科技公司</div>
                   <p class="pt-4">
@@ -44,7 +44,7 @@
             </v-col>
             <!-- <v-spacer></v-spacer> -->
             <v-col class="pa-2 ma-2 align-self-center">
-               <img style="max-width: 100%; max-height: 100%" src="../../public/icons/free-logo.png" alt="free-logo" />
+               <img id="free-logo" style="max-width: 100%; max-height: 100%" src="../../public/icons/free-logo.png" alt="free-logo" />
             </v-col>
          </v-row>
       </v-container>
@@ -57,7 +57,6 @@
          UCAN
          <a
             class="text-decoration-none"
-            href="https://www.notion.so/20e49c81e43a80ffbcd8f6b330a7239c?source=copy_link"
             target="_blank"
             >Ucan</a
          >
@@ -75,5 +74,8 @@
 }
 .contact_link_box a:hover {
    color: aquamarine !important;
+}
+#free-logo {
+   min-width: 100px
 }
 </style>
